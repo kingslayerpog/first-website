@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+     overflow-x: hidden;
+    font-family: 'space grotesk';
+    background-color: #161616;
+    color: #ffffff;
+}
+header {
+    max-width: 1000px;
+    height: 700px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+main{
+    max-width: 1000px;
+    height: 2400px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgb(37, 37, 37);
+    height: 650px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.header-section{
+    border-bottom: 1px solid;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 15px;
+}
+
+.main-image .main{
+    width: 400px;
+    height: 650px;
+    position: relative;
+    
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+    position: absolute;
+    top: 25px;
+    right: 200px;
+}
+
+.introduction h1{
+    font-size: 78px;
+    position: absolute;
+    top: 125px;
+    left: 170px
+}
+
+.background-image{
+    position: absolute;
+    top: 475px;
+    left: 700px;
+    opacity: 0.5;
+}
+
+.my-info{
+    position: absolute;
+    top:350px;
+    left: 170px;
+    font-size: 20px;
+}
+
+.background-design{
+    position: absolute;
+    top: 61px;
+    left: -120px;
+}
+
+.contact a{
+    position: absolute; 
+    top: 500px;
+    left: 170px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline rgb(47, 255, 168) 2px;
+    text-underline-offset: 10px;
+}
+.contact a:hover{
+    color: rgb(47, 255, 168);
+    transition: 0.3s;
+}
+main{
+    max-width: 1000px;
+    height: 2200px;
+    margin: auto;
+    padding: 50px 0;
+}
+.experience{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 130px;
+    position: relative;
+    align-items: center;
+}
+.experience .p1{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+.experience .p2{
+    position: absolute;
+    top: 50px;
+    left: 360px;
+}
+.experience .p3{
+    position: absolute;
+    top: 50px;
+    left: 690px;
+}
+.experience .p4{
+    position: absolute;
+    top: 240px;
+    left: 0px;
+}
+.experience .p5{
+    position: absolute;
+    top: 240px;
+    left: 360px;
+}
+.experience .p6{
+    position: absolute;
+    top: 240px;
+    left: 690px;
+}
+.experience h2{
+    font-size: 36px;
+
+}
+
+.design-right{
+    position: absolute;
+    top: 200px;
+    right: -400px;
+}
+
+.primary{
+    font-size: 55px;
+    position:absolute;
+    top: 1250px;
+}
+
+.contact-list a{
+    position: absolute;
+    top: 1275px;
+    right: 175px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline rgb(47, 255, 168) 2px;
+    text-underline-offset: 10px;
+}
+
+.information{
+    position: relative;
+    align-items: center;
+    margin-top: 400px;
+
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 0px 50px;
+    position: relative;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+.projects img{
+    background-color: skyblue;
+    width: 485px;
+    height: 385px;
+    margin-bottom: 150px;
+    justify-content: space-between;
+    /* margin-right: 80px; */
+}
+.A1{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+}
+.A2{
+    position: absolute;
+    top: 400px;
+    left: 515px;
+}
+.A3{
+    position: absolute;
+    top: 940px;
+    left: 0px;
+}
+.A4{
+    position: absolute;
+    top: 940px;
+    left: 515px;
+}
+.A5{
+    position: absolute;
+    top: 1475px;
+    left: 0px
+}
+.A6{
+    position: absolute;
+    top: 1475px;
+    left: 515px;
+}
+
+.footer-contact h1{
+    position: absolute; 
+    top: 2950px;
+    left: 170px;
+    text-decoration: none;
+    color: white;
+    font-size: 65px;
+}
+
+.footer-design{
+    position: absolute;
+    top: 3200px;
+    left: -175px;
+    opacity: 0.5;
+}
+
+.footer-info{
+    position: absolute;
+    top: 3050px;
+    left: 170px;
+    font-size: 20px;
+    line-height: 2.0rem;
+}
+
+.footer-contact{
+    display: flex;
+}
+
+.user-info {
+    position: absolute;
+    height: 70px;
+    top: 2950px;
+    right: 200px;
+    font-size: 20px;
+    color: #4d4c4c;
+}
+
+.btn a{
+    position: absolute; 
+    top: 3225px;
+    left: 1030px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline rgb(47, 255, 168) 2px;
+    text-underline-offset: 10px;
+}
+.btn a:hover{
+    color: rgb(47, 255, 168);
+    transition: 0.3s;
+}
+
+.footer-logo{
+    position: absolute;
+    top: 3450px;
+    left: 170px;
+    font-size: 30px;
+}
