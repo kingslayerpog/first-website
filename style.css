@@ -292,3 +292,7 @@ main{
     left: 170px;
     font-size: 30px;
 }
+
+u{
+    text-decoration-color: rgb(47, 255, 168);
+}
